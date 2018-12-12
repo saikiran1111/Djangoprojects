@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9a%9(2n_0%$=*t)lvh@zryqzn@9vqe^wtrpslbkl@!+-!+vn&b'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -149,19 +149,19 @@ LOGOUT_REDIRECT_URL = 'home'
 
 EMAIL_BACKEND= 'django.core.mail.backends.console.EmailBackend'
 
-SOCIAL_AUTH_GITHUB_KEY ='f6d85ff7adf4eb8e8604'
-SOCIAL_AUTH_GITHUB_SECRET='fd77e978cc7385459832c5ccea4b14e378f4f400'
+SOCIAL_AUTH_GITHUB_KEY =''
+SOCIAL_AUTH_GITHUB_SECRET=''
 
 
-SOCIAL_AUTH_FACEBOOK_KEY = '586055105159433'  # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = 'e415a4a0a6769548069f6b6bbe958619'  # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = ''  # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = ''  # App Secret
 
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='221341644138-jma39jnk14u25pur8g31ad50j2ap6mh5.apps.googleusercontent.com'  #Paste CLient Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'HYqapBcNCAdlPgLRgEYMsxax' #Paste Secret Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY =''  #Paste CLient Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' #Paste Secret Key
 
 
-GOOGLE_RECAPTCHA_SECRET_KEY = '6LeWkH8UAAAAABwfJpOqwE46VkB-LaKIKAIsT9H-'
+GOOGLE_RECAPTCHA_SECRET_KEY = ''
 
 
 
